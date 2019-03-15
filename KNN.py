@@ -6,7 +6,7 @@ from sklearn import preprocessing
 %matplotlib inline
 
 #Load Dataset
-url = "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/teleCust1000t.csv"
+url = "https://raw.githubusercontent.com/ParthanOlikkal/KNearestNeighbor/master/teleCust1000t.csv"
 df = pd.read_csv(url)
 df.head()
 
